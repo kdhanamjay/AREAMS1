@@ -1,0 +1,6 @@
+{
+  "name": "Amara Raja Group EAMS",
+  "description": "Enterprise Asset Management System (EAMS) for Amara Raja Group with multi-organization support, QR/barcode labeling, asset tracking, physical verification, AMC/warranty reminders, and audit logs.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1079 @@
+{
+  "organizations": [
+    {
+      "id": "org-arvd",
+      "name": "Amara Raja Vidyanikethan (ARVD)",
+      "shortCode": "ARVD",
+      "logo": "https://images.unsplash.com/photo-1562774053-701939374585?w=150&auto=format&fit=crop&q=80",
+      "address": "Diguvamagham, Chittoor District, Andhra Pradesh - 517129",
+      "gstNumber": "37AAAAA0000A1Z5",
+      "email": "info.arvd@amararaja.com",
+      "phone": "+91 8572 273201",
+      "status": "Active",
+      "createdDate": "2023-01-15"
+    },
+    {
+      "id": "org-arvk",
+      "name": "Amara Raja Vidya Kendra (ARVK)",
+      "shortCode": "ARVK",
+      "logo": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=150&auto=format&fit=crop&q=80",
+      "address": "Petamitta, Chittoor District, AP - 517129",
+      "gstNumber": "37AAAAA0000A2Z4",
+      "email": "arvk@amararaja.com",
+      "phone": "+91 8572 273202",
+      "status": "Active",
+      "createdDate": "2023-02-10"
+    },
+    {
+      "id": "org-mv",
+      "name": "Mangal Vidyalaya (MV)",
+      "shortCode": "MV",
+      "logo": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=150&auto=format&fit=crop&q=80",
+      "address": "Karakambadi, Tirupati, AP - 517520",
+      "gstNumber": "37AAAAA0000A3Z3",
+      "email": "mangalvidyalaya@amararaja.com",
+      "phone": "+91 877 2265000",
+      "status": "Active",
+      "createdDate": "2023-03-01"
+    },
+    {
+      "id": "org-phc",
+      "name": "Rajanna Trust Primary Health Center (PHC)",
+      "shortCode": "PHC",
+      "logo": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=150&auto=format&fit=crop&q=80",
+      "address": "Diguvamagham, AP - 517129",
+      "gstNumber": "37AAAAA0000A4Z2",
+      "email": "health.phc@amararaja.com",
+      "phone": "+91 8572 273300",
+      "status": "Active",
+      "createdDate": "2023-03-15"
+    },
+    {
+      "id": "org-corp",
+      "name": "Amara Raja Corporate Office",
+      "shortCode": "AR-CORP",
+      "logo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=150&auto=format&fit=crop&q=80",
+      "address": "Renigunta Road, Tirupati, AP - 517520",
+      "gstNumber": "37AAAAA0000A5Z1",
+      "email": "corporate@amararaja.com",
+      "phone": "+91 877 2265001",
+      "status": "Active",
+      "createdDate": "2022-11-01"
+    },
+    {
+      "id": "org-factory",
+      "name": "Amara Raja Batteries Gigafactory",
+      "shortCode": "AR-PLANT",
+      "logo": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=150&auto=format&fit=crop&q=80",
+      "address": "Karakambadi Industrial Area, Tirupati, AP",
+      "gstNumber": "37AAAAA0000A6Z0",
+      "email": "plant.operations@amararaja.com",
+      "phone": "+91 877 2265999",
+      "status": "Active",
+      "createdDate": "2022-10-15"
+    }
+  ],
+  "campuses": [
+    {
+      "id": "cmp-dig",
+      "organizationId": "org-arvd",
+      "name": "Diguvamagham Campus",
+      "code": "DIG",
+      "address": "Diguvamagham Village",
+      "city": "Chittoor",
+      "state": "Andhra Pradesh",
+      "status": "Active"
+    },
+    {
+      "id": "cmp-peta",
+      "organizationId": "org-arvk",
+      "name": "Petamitta Campus",
+      "code": "PETA",
+      "address": "Petamitta Cross Roads",
+      "city": "Chittoor",
+      "state": "Andhra Pradesh",
+      "status": "Active"
+    },
+    {
+      "id": "cmp-karak",
+      "organizationId": "org-mv",
+      "name": "Karakambadi Industrial Campus",
+      "code": "KARAK",
+      "address": "Karakambadi Road",
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "status": "Active"
+    },
+    {
+      "id": "cmp-tirupati",
+      "organizationId": "org-corp",
+      "name": "Tirupati Central Campus",
+      "code": "TPT",
+      "address": "Renigunta Road",
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "status": "Active"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "bld-admin-dig",
+      "campusId": "cmp-dig",
+      "organizationId": "org-arvd",
+      "name": "Administration Block",
+      "code": "ADM-01",
+      "buildingType": "Administration",
+      "status": "Active"
+    },
+    {
+      "id": "bld-highschool-dig",
+      "campusId": "cmp-dig",
+      "organizationId": "org-arvd",
+      "name": "High School Academic Wing",
+      "code": "HS-02",
+      "buildingType": "Academic",
+      "status": "Active"
+    },
+    {
+      "id": "bld-phc-main",
+      "campusId": "cmp-dig",
+      "organizationId": "org-phc",
+      "name": "Rajanna Hospital Main Building",
+      "code": "HOSP-01",
+      "buildingType": "Hospital",
+      "status": "Active"
+    },
+    {
+      "id": "bld-corp-hq",
+      "campusId": "cmp-tirupati",
+      "organizationId": "org-corp",
+      "name": "Amara Raja Tower (Corporate HQ)",
+      "code": "HQ-01",
+      "buildingType": "Corporate Office",
+      "status": "Active"
+    },
+    {
+      "id": "bld-plant1",
+      "campusId": "cmp-karak",
+      "organizationId": "org-factory",
+      "name": "Battery Manufacturing Unit 1",
+      "code": "PLANT-1",
+      "buildingType": "Factory",
+      "status": "Active"
+    }
+  ],
+  "floors": [
+    {
+      "id": "flr-dig-g",
+      "buildingId": "bld-admin-dig",
+      "name": "Ground Floor",
+      "code": "G",
+      "floorNumber": 0
+    },
+    {
+      "id": "flr-dig-1",
+      "buildingId": "bld-admin-dig",
+      "name": "First Floor",
+      "code": "1F",
+      "floorNumber": 1
+    },
+    {
+      "id": "flr-hs-1",
+      "buildingId": "bld-highschool-dig",
+      "name": "First Floor",
+      "code": "1F",
+      "floorNumber": 1
+    },
+    {
+      "id": "flr-hosp-g",
+      "buildingId": "bld-phc-main",
+      "name": "Ground Floor",
+      "code": "G",
+      "floorNumber": 0
+    },
+    {
+      "id": "flr-hq-3",
+      "buildingId": "bld-corp-hq",
+      "name": "Third Floor (Exec Suite)",
+      "code": "3F",
+      "floorNumber": 3
+    },
+    {
+      "id": "flr-plant-g",
+      "buildingId": "bld-plant1",
+      "name": "Assembly Floor",
+      "code": "AF",
+      "floorNumber": 0
+    }
+  ],
+  "rooms": [
+    {
+      "id": "rm-principal",
+      "floorId": "flr-dig-1",
+      "buildingId": "bld-admin-dig",
+      "name": "Principal Office",
+      "roomNumber": "101",
+      "roomType": "Executive Office",
+      "capacity": 6
+    },
+    {
+      "id": "rm-server-room",
+      "floorId": "flr-dig-g",
+      "buildingId": "bld-admin-dig",
+      "name": "Central Server Room",
+      "roomNumber": "G05",
+      "roomType": "IT Server Room",
+      "capacity": 4
+    },
+    {
+      "id": "rm-complab1",
+      "floorId": "flr-hs-1",
+      "buildingId": "bld-highschool-dig",
+      "name": "Computer Lab 1",
+      "roomNumber": "108",
+      "roomType": "Laboratory",
+      "capacity": 40
+    },
+    {
+      "id": "rm-clinic-icu",
+      "floorId": "flr-hosp-g",
+      "buildingId": "bld-phc-main",
+      "name": "Emergency ICU Ward",
+      "roomNumber": "ICU-1",
+      "roomType": "Medical Ward",
+      "capacity": 8
+    },
+    {
+      "id": "rm-boardroom",
+      "floorId": "flr-hq-3",
+      "buildingId": "bld-corp-hq",
+      "name": "Chairman Boardroom",
+      "roomNumber": "301",
+      "roomType": "Conference Hall",
+      "capacity": 25
+    },
+    {
+      "id": "rm-testing-lab",
+      "floorId": "flr-plant-g",
+      "buildingId": "bld-plant1",
+      "name": "Battery QC Testing Room",
+      "roomNumber": "QC-1",
+      "roomType": "Quality Lab",
+      "capacity": 12
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-admin",
+      "organizationId": "org-arvd",
+      "name": "Administration",
+      "code": "ADM",
+      "hodName": "S. Ramakrishna"
+    },
+    {
+      "id": "dept-it",
+      "organizationId": "org-arvd",
+      "name": "Information Technology",
+      "code": "IT",
+      "hodName": "V. Naresh Kumar"
+    },
+    {
+      "id": "dept-accounts",
+      "organizationId": "org-arvd",
+      "name": "Accounts & Finance",
+      "code": "ACC",
+      "hodName": "M. Chengalrayan"
+    },
+    {
+      "id": "dept-csr",
+      "organizationId": "org-corp",
+      "name": "CSR & Education Trust",
+      "code": "CSR",
+      "hodName": "Dr. Anitha G."
+    },
+    {
+      "id": "dept-medical",
+      "organizationId": "org-phc",
+      "name": "Medical Operations",
+      "code": "MED",
+      "hodName": "Dr. C. Mohan"
+    },
+    {
+      "id": "dept-mfg",
+      "organizationId": "org-factory",
+      "name": "Plant Engineering & Electrical",
+      "code": "ENG",
+      "hodName": "K. Sreenivasulu"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-furn",
+      "name": "Furniture & Fixtures",
+      "code": "FUR",
+      "description": "Tables, Ergonomic Chairs, Desks, Podiums"
+    },
+    {
+      "id": "cat-it",
+      "name": "IT Equipment",
+      "code": "ITE",
+      "description": "Laptops, Servers, Monitors, Desktops"
+    },
+    {
+      "id": "cat-net",
+      "name": "Networking Equipment",
+      "code": "NET",
+      "description": "Cisco Switches, Routers, Access Points"
+    },
+    {
+      "id": "cat-med",
+      "name": "Medical Equipment",
+      "code": "MED",
+      "description": "ECG Monitors, Ultrasound, Defibrillators"
+    },
+    {
+      "id": "cat-elec",
+      "name": "Electrical & Power",
+      "code": "ELE",
+      "description": "Transformers, DG Sets, Online UPS"
+    },
+    {
+      "id": "cat-ac",
+      "name": "Air Conditioning",
+      "code": "HVAC",
+      "description": "Split AC, Cassette AC, Chillers"
+    },
+    {
+      "id": "cat-cctv",
+      "name": "CCTV & Security",
+      "code": "SEC",
+      "description": "IP Cameras, NVR Recorders, Biometric Access"
+    },
+    {
+      "id": "cat-lab",
+      "name": "Laboratory Equipment",
+      "code": "LAB",
+      "description": "Microscopes, Spectrophotometers, Testing Kits"
+    }
+  ],
+  "subCategories": [
+    {
+      "id": "sub-chair",
+      "categoryId": "cat-furn",
+      "name": "Ergonomic Executive Chair",
+      "code": "EX-CHR"
+    },
+    {
+      "id": "sub-desk",
+      "categoryId": "cat-furn",
+      "name": "Modular Workstation Desk",
+      "code": "MOD-DSK"
+    },
+    {
+      "id": "sub-laptop",
+      "categoryId": "cat-it",
+      "name": "Enterprise Laptop",
+      "code": "LAP"
+    },
+    {
+      "id": "sub-server",
+      "categoryId": "cat-it",
+      "name": "Rackmount Server",
+      "code": "SRV"
+    },
+    {
+      "id": "sub-switch",
+      "categoryId": "cat-net",
+      "name": "Managed Network Switch",
+      "code": "SWT"
+    },
+    {
+      "id": "sub-ups",
+      "categoryId": "cat-elec",
+      "name": "Industrial 100KVA UPS",
+      "code": "UPS"
+    },
+    {
+      "id": "sub-gen",
+      "categoryId": "cat-elec",
+      "name": "Diesel Generator 500KVA",
+      "code": "DG"
+    },
+    {
+      "id": "sub-split-ac",
+      "categoryId": "cat-ac",
+      "name": "2.0 Ton Inverter Split AC",
+      "code": "SAC"
+    },
+    {
+      "id": "sub-cam",
+      "categoryId": "cat-cctv",
+      "name": "4K Dome IP Camera",
+      "code": "CAM"
+    }
+  ],
+  "assets": [
+    {
+      "id": "ast-001",
+      "assetTag": "ARG-ARVD-IT-2026-0001",
+      "particulars": "Dell PowerEdge R750 Server",
+      "description": "High-performance Enterprise Rack Server for Campus ERP & LMS database hosting",
+      "assetLocationCode": "ARVD-DIG-ADM01-G-G05",
+      "purchaseDate": "2024-04-12",
+      "organizationId": "org-arvd",
+      "campusId": "cmp-dig",
+      "buildingId": "bld-admin-dig",
+      "floorId": "flr-dig-g",
+      "roomId": "rm-server-room",
+      "departmentId": "dept-it",
+      "division": "Education Trust",
+      "placeOfAsset": "Rack Row 1, Slot 4",
+      "quantity": 1,
+      "purchaseCost": 485000,
+      "currentValue": 390000,
+      "depreciationRate": 15,
+      "expectedLifeYears": 5,
+      "assetAllocationNumber": "ALLOC-IT-9921",
+      "assetSerialNumber": "SN-DELL-88392110",
+      "rfidNumber": "RFID-993-2001",
+      "manufacturer": "Dell Technologies",
+      "model": "PowerEdge R750",
+      "vendor": "Redington India Ltd",
+      "invoiceNumber": "INV-2024-8841",
+      "warrantyStart": "2024-04-12",
+      "warrantyEnd": "2027-04-11",
+      "amcVendor": "Dell Enterprise ProSupport",
+      "amcStart": "2024-04-12",
+      "amcEnd": "2027-04-11",
+      "amcCost": 35000,
+      "currentCondition": "Excellent",
+      "assetStatus": "Active",
+      "assignedEmployee": "V. Naresh Kumar (IT Head)",
+      "assetPhoto": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&auto=format&fit=crop&q=80",
+      "remarks": "Primary ERP & Biometric Attendance Database server.",
+      "latitude": 13.2172,
+      "longitude": 79.1003,
+      "createdBy": "Super Admin",
+      "createdDate": "2024-04-12",
+      "categoryId": "cat-it",
+      "subCategoryId": "sub-server",
+      "barcodeType": "Code128"
+    },
+    {
+      "id": "ast-002",
+      "assetTag": "ARG-ARVD-IT-2026-0002",
+      "particulars": "HP EliteBook 840 G10 Laptops (Batch of 15)",
+      "description": "Core i7 13th Gen Laptops for High School Computer Teachers and Lab Instructors",
+      "assetLocationCode": "ARVD-DIG-HS02-1F-108",
+      "purchaseDate": "2025-01-20",
+      "organizationId": "org-arvd",
+      "campusId": "cmp-dig",
+      "buildingId": "bld-highschool-dig",
+      "floorId": "flr-hs-1",
+      "roomId": "rm-complab1",
+      "departmentId": "dept-it",
+      "division": "Academic Labs",
+      "placeOfAsset": "Lab Storage Lockers",
+      "quantity": 15,
+      "purchaseCost": 1275000,
+      "currentValue": 1150000,
+      "depreciationRate": 20,
+      "expectedLifeYears": 4,
+      "assetAllocationNumber": "ALLOC-LAB-2025-01",
+      "assetSerialNumber": "SN-HP-G10-BATCH-15",
+      "rfidNumber": "RFID-993-2002",
+      "manufacturer": "HP Inc",
+      "model": "EliteBook 840 G10",
+      "vendor": "Amara Raja Infotech Services",
+      "invoiceNumber": "INV-2025-0012",
+      "warrantyStart": "2025-01-20",
+      "warrantyEnd": "2028-01-19",
+      "amcVendor": "HP Onsite Warranty",
+      "amcStart": "2025-01-20",
+      "amcEnd": "2028-01-19",
+      "amcCost": 45000,
+      "currentCondition": "Excellent",
+      "assetStatus": "In Use",
+      "assignedEmployee": "K. Srinivas (Lab Administrator)",
+      "assetPhoto": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&auto=format&fit=crop&q=80",
+      "remarks": "Pre-loaded with Python, C++, and Scratch IDEs.",
+      "createdBy": "Super Admin",
+      "createdDate": "2025-01-20",
+      "categoryId": "cat-it",
+      "subCategoryId": "sub-laptop",
+      "barcodeType": "Code128"
+    },
+    {
+      "id": "ast-003",
+      "assetTag": "ARG-PHC-MED-2026-0003",
+      "particulars": "GE Healthcare Patient Monitor Monitor B40",
+      "description": "Multi-parameter Vital Signs Patient Monitor with ECG, NIBP, SpO2 for Emergency ICU",
+      "assetLocationCode": "PHC-DIG-HOSP01-G-ICU1",
+      "purchaseDate": "2023-08-10",
+      "organizationId": "org-phc",
+      "campusId": "cmp-dig",
+      "buildingId": "bld-phc-main",
+      "floorId": "flr-hosp-g",
+      "roomId": "rm-clinic-icu",
+      "departmentId": "dept-medical",
+      "division": "Rajanna Trust Medical Wing",
+      "placeOfAsset": "ICU Bed 1 Wall Mount",
+      "quantity": 1,
+      "purchaseCost": 220000,
+      "currentValue": 165000,
+      "depreciationRate": 15,
+      "expectedLifeYears": 7,
+      "assetAllocationNumber": "ALLOC-MED-771",
+      "assetSerialNumber": "SN-GE-B40-9921",
+      "manufacturer": "GE Healthcare",
+      "model": "B40 Patient Monitor",
+      "vendor": "Wipro GE Healthcare Pvt Ltd",
+      "invoiceNumber": "INV-GE-9021",
+      "warrantyStart": "2023-08-10",
+      "warrantyEnd": "2025-08-09",
+      "amcVendor": "MedTechCare Services Pvt Ltd",
+      "amcStart": "2025-08-10",
+      "amcEnd": "2026-08-09",
+      "amcCost": 18000,
+      "currentCondition": "Good",
+      "assetStatus": "Active",
+      "assignedEmployee": "Dr. C. Mohan (Chief Medical Officer)",
+      "assetPhoto": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&auto=format&fit=crop&q=80",
+      "remarks": "AMC active with MedTechCare. Annual calibration completed in June.",
+      "createdBy": "Super Admin",
+      "createdDate": "2023-08-10",
+      "categoryId": "cat-med",
+      "subCategoryId": "sub-chair",
+      "barcodeType": "Code128"
+    },
+    {
+      "id": "ast-004",
+      "assetTag": "ARG-CORP-ELE-2026-0004",
+      "particulars": "Cummins 500KVA Silent Diesel Generator",
+      "description": "Heavy duty automatic backup power generator with AMF panel for Corporate HQ Building",
+      "assetLocationCode": "CORP-TPT-HQ01-3F-G",
+      "purchaseDate": "2022-11-15",
+      "organizationId": "org-corp",
+      "campusId": "cmp-tirupati",
+      "buildingId": "bld-corp-hq",
+      "floorId": "flr-hq-3",
+      "roomId": "rm-boardroom",
+      "departmentId": "dept-mfg",
+      "division": "Corporate Infrastructure",
+      "placeOfAsset": "Substation DG Yard",
+      "quantity": 1,
+      "purchaseCost": 3200000,
+      "currentValue": 2400000,
+      "depreciationRate": 10,
+      "expectedLifeYears": 10,
+      "assetAllocationNumber": "ALLOC-INFRA-DG01",
+      "assetSerialNumber": "SN-CUMMINS-500-8812",
+      "manufacturer": "Cummins India",
+      "model": "C500D5",
+      "vendor": "Sudhir Gensets Ltd",
+      "invoiceNumber": "INV-SUDHIR-4401",
+      "warrantyStart": "2022-11-15",
+      "warrantyEnd": "2024-11-14",
+      "amcVendor": "Cummins India Service Hub",
+      "amcStart": "2025-11-15",
+      "amcEnd": "2026-08-15",
+      "amcCost": 120000,
+      "currentCondition": "Good",
+      "assetStatus": "Active",
+      "assignedEmployee": "K. Sreenivasulu (Electrical Chief)",
+      "assetPhoto": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=400&auto=format&fit=crop&q=80",
+      "remarks": "Quarterly servicing due next month.",
+      "createdBy": "Super Admin",
+      "createdDate": "2022-11-15",
+      "categoryId": "cat-elec",
+      "subCategoryId": "sub-gen",
+      "barcodeType": "Code128"
+    },
+    {
+      "id": "ast-005",
+      "assetTag": "ARG-PLANT-HVAC-2026-0005",
+      "particulars": "Daikin 2.0 Ton Inverter Cassette AC (Qty 4)",
+      "description": "Ceiling Cassette Air Conditioners for QC Battery Testing Lab",
+      "assetLocationCode": "PLANT-KARAK-PLANT1-AF-QC1",
+      "purchaseDate": "2023-05-20",
+      "organizationId": "org-factory",
+      "campusId": "cmp-karak",
+      "buildingId": "bld-plant1",
+      "floorId": "flr-plant-g",
+      "roomId": "rm-testing-lab",
+      "departmentId": "dept-mfg",
+      "division": "Factory Operations",
+      "placeOfAsset": "Ceiling Grid QC Room",
+      "quantity": 4,
+      "purchaseCost": 280000,
+      "currentValue": 210000,
+      "depreciationRate": 12.5,
+      "expectedLifeYears": 8,
+      "assetAllocationNumber": "ALLOC-HVAC-992",
+      "assetSerialNumber": "SN-DAIKIN-CASSETTE-04",
+      "manufacturer": "Daikin Airconditioning India",
+      "model": "FCCN50AV16",
+      "vendor": "Tirupati Cooling Solutions",
+      "invoiceNumber": "INV-TCS-1082",
+      "warrantyStart": "2023-05-20",
+      "warrantyEnd": "2026-05-19",
+      "amcVendor": "Daikin Care Centre",
+      "amcStart": "2023-05-20",
+      "amcEnd": "2026-05-19",
+      "amcCost": 24000,
+      "currentCondition": "Fair",
+      "assetStatus": "Under Repair",
+      "assignedEmployee": "P. Venkat (Plant Maintenance)",
+      "assetPhoto": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&auto=format&fit=crop&q=80",
+      "remarks": "Compressor maintenance in progress by Daikin technician.",
+      "createdBy": "Super Admin",
+      "createdDate": "2023-05-20",
+      "categoryId": "cat-ac",
+      "subCategoryId": "sub-split-ac",
+      "barcodeType": "Code128"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "trf-101",
+      "assetId": "ast-002",
+      "assetTag": "ARG-ARVD-IT-2026-0002",
+      "assetName": "HP EliteBook 840 G10 Laptops (Batch of 15)",
+      "fromOrganizationId": "org-arvd",
+      "fromCampusId": "cmp-dig",
+      "fromBuildingId": "bld-highschool-dig",
+      "fromRoomId": "rm-complab1",
+      "toOrganizationId": "org-arvk",
+      "toCampusId": "cmp-peta",
+      "toBuildingId": "bld-admin-dig",
+      "toRoomId": "rm-principal",
+      "transferReason": "Temporary allocation for Vidya Kendra teacher training workshop",
+      "requestedBy": "K. Srinivas",
+      "requestedDate": "2026-07-01",
+      "approvedBy": "S. Ramakrishna",
+      "approvedDate": "2026-07-02",
+      "status": "Approved",
+      "notes": "Laptops transferred safely under Gate Pass #GP-2026-081"
+    }
+  ],
+  "verifications": [
+    {
+      "id": "ver-201",
+      "assetId": "ast-001",
+      "assetTag": "ARG-ARVD-IT-2026-0001",
+      "assetName": "Dell PowerEdge R750 Server",
+      "verifiedBy": "V. Naresh Kumar",
+      "verifiedDate": "2026-07-20",
+      "verificationStatus": "Present",
+      "locationMatched": true,
+      "actualRoomId": "rm-server-room",
+      "photoCaptured": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&auto=format&fit=crop&q=80",
+      "remarks": "Physical tag scanned. Server functioning optimally in rack cabinet.",
+      "latitude": 13.2172,
+      "longitude": 79.1003
+    }
+  ],
+  "repairs": [
+    {
+      "id": "rep-301",
+      "assetId": "ast-005",
+      "assetTag": "ARG-PLANT-HVAC-2026-0005",
+      "assetName": "Daikin 2.0 Ton Inverter Cassette AC (Qty 4)",
+      "complaintDate": "2026-07-18",
+      "issueDescription": "Unit #2 cooling performance reduced, outdoor unit fan noise reported",
+      "vendorName": "Daikin Authorized Service Center - Tirupati",
+      "estimatedCost": 8500,
+      "actualCost": 7200,
+      "repairStatus": "In Progress",
+      "technicianNotes": "Gas refilling and fan motor bearing replacement scheduled."
+    }
+  ],
+  "amcs": [
+    {
+      "id": "amc-401",
+      "assetId": "ast-004",
+      "assetTag": "ARG-CORP-ELE-2026-0004",
+      "assetName": "Cummins 500KVA Silent Diesel Generator",
+      "vendorName": "Cummins India Service Hub",
+      "vendorContact": "+91 98480 12345",
+      "startDate": "2025-08-16",
+      "endDate": "2026-08-15",
+      "cost": 120000,
+      "status": "Expiring Soon",
+      "renewalNotes": "Renewal quotation received. Approval pending with Corporate Accounts."
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-001",
+      "userId": "usr-1",
+      "userName": "Super Admin",
+      "userRole": "Super Admin",
+      "action": "SYSTEM_INITIALIZATION",
+      "entityType": "System",
+      "entityId": "SYS",
+      "ipAddress": "127.0.0.1",
+      "browser": "Chrome 126 / Linux",
+      "timestamp": "2026-10-24T01:48:29.503Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Super Admin",
+      "email": "admin@amararaja.com",
+      "username": "superadmin",
+      "password": "SuperAdmin#2026!",
+      "role": "Super Admin",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "usr-2",
+      "name": "S. Ramakrishna (ARVD Admin)",
+      "email": "ramakrishna@amararaja.com",
+      "username": "arvd_admin",
+      "password": "ARVD_Admin#8822!",
+      "role": "Organization Admin",
+      "organizationId": "org-arvd",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "usr-3",
+      "name": "Dr. C. Mohan (Hospital Admin)",
+      "email": "cmohan@amararaja.com",
+      "username": "phc_admin",
+      "password": "PHC_Admin#7733!",
+      "role": "Campus Admin",
+      "organizationId": "org-phc",
+      "campusId": "cmp-dig"
+    },
+    {
+      "id": "usr-4",
+      "name": "K. Srinivas (Store Keeper)",
+      "email": "ksrinivas@amararaja.com",
+      "username": "arvd_store",
+      "password": "ARVD_Store#4411!",
+      "role": "Store Keeper",
+      "organizationId": "org-arvd"
+    },
+    {
+      "id": "usr-5",
+      "name": "V. Naresh Kumar (Verifier)",
+      "email": "naresh@amararaja.com",
+      "username": "arvd_verifier",
+      "password": "ARVD_Verifier#5522!",
+      "role": "Asset Verifier",
+      "organizationId": "org-arvd"
+    },
+    {
+      "id": "usr-6",
+      "name": "M. Laxman Rao (ARVK Admin)",
+      "email": "laxman.arvk@amararaja.com",
+      "username": "arvk_admin",
+      "password": "ARVK_Admin#9911!",
+      "role": "Organization Admin",
+      "organizationId": "org-arvk"
+    },
+    {
+      "id": "usr-7",
+      "name": "P. Swathi (MV Admin)",
+      "email": "swathi.mv@amararaja.com",
+      "username": "mv_admin",
+      "password": "MV_Admin#3388!",
+      "role": "Organization Admin",
+      "organizationId": "org-mv"
+    },
+    {
+      "id": "usr-8",
+      "name": "V. Rajesh Varma (Corporate Admin)",
+      "email": "vrajesh.corp@amararaja.com",
+      "username": "corp_admin",
+      "password": "CORP_Admin#5599!",
+      "role": "Organization Admin",
+      "organizationId": "org-corp"
+    },
+    {
+      "id": "usr-9",
+      "name": "A. Gayatri (Corporate Auditor)",
+      "email": "agayatri.corp@amararaja.com",
+      "username": "corp_auditor",
+      "password": "CORP_Auditor#8833!",
+      "role": "Auditor",
+      "organizationId": "org-corp"
+    },
+    {
+      "id": "usr-10",
+      "name": "G. Anjaneyulu (Gigafactory Lead)",
+      "email": "ganjaneyulu.factory@amararaja.com",
+      "username": "plant_admin",
+      "password": "PLANT_Admin#1188!",
+      "role": "Organization Admin",
+      "organizationId": "org-factory"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tkt-1",
+      "ticketNumber": "TKT-2026-101",
+      "title": "Cisco 24-Port Switch Port 12 Failure in High School Server Room",
+      "description": "Network connectivity lost in 2nd Floor Classrooms 8A, 8B due to port 12 interface error on Cisco SG350-28 switch.",
+      "category": "Network/Wifi Issue",
+      "priority": "Critical",
+      "status": "In Progress",
+      "organizationId": "org-arvd",
+      "campusId": "cmp-dig",
+      "buildingId": "bld-dig-1",
+      "roomId": "rm-dig-101",
+      "assetId": "ast-net-1",
+      "assetTag": "ARVD-NW-001",
+      "assetName": "Cisco SG350 28-Port Switch",
+      "reportedBy": "Venkatesh (IT Staff)",
+      "reportedByEmail": "venkatesh.it@amararaja.com",
+      "reportedDate": "2026-07-20",
+      "targetResolutionDate": "2026-07-21",
+      "assignedTechnician": "D. Rajesh (Network Lead)",
+      "technicianPhone": "+91 98480 12345",
+      "comments": [
+        {
+          "id": "c1",
+          "authorName": "Venkatesh",
+          "authorRole": "IT Staff",
+          "text": "Reported port LED amber flashing and loss of ping response.",
+          "timestamp": "2026-07-20 09:30 AM"
+        },
+        {
+          "id": "c2",
+          "authorName": "D. Rajesh",
+          "authorRole": "Network Tech",
+          "text": "Arrived at site. Testing port with fluke cable analyzer. Spare SFP module ordered.",
+          "timestamp": "2026-07-20 11:15 AM"
+        }
+      ]
+    },
+    {
+      "id": "tkt-2",
+      "ticketNumber": "TKT-2026-102",
+      "title": "Interactive Flat Panel (IFP 75\") Touch Screen Unresponsive",
+      "description": "The 75 inch interactive display touch overlay not responding to stylus or touch gesture in Room 204 (Maths Lab).",
+      "category": "Hardware Failure",
+      "priority": "High",
+      "status": "Open",
+      "organizationId": "org-arvk",
+      "campusId": "cmp-peta",
+      "buildingId": "bld-peta-1",
+      "roomId": "rm-peta-201",
+      "assetId": "ast-ifp-1",
+      "assetTag": "ARVK-DISP-004",
+      "assetName": "Interactive Flat Panel 75\"",
+      "reportedBy": "M. Lakshmi (Math Teacher)",
+      "reportedByEmail": "lakshmi.m@amararaja.com",
+      "reportedDate": "2026-07-22",
+      "targetResolutionDate": "2026-07-23",
+      "comments": [
+        {
+          "id": "c3",
+          "authorName": "M. Lakshmi",
+          "authorRole": "Teacher",
+          "text": "Restarted display twice, touch calibration tool fails to launch.",
+          "timestamp": "2026-07-22 02:00 PM"
+        }
+      ]
+    },
+    {
+      "id": "tkt-3",
+      "ticketNumber": "TKT-2026-103",
+      "title": "Daikin 2.0 Ton Split AC Water Leakage",
+      "description": "Indoor unit leaking water onto desk in Ground Floor Principal Room. Drainage pipe appears clogged.",
+      "category": "HVAC/AC Repair",
+      "priority": "High",
+      "status": "Assigned",
+      "organizationId": "org-arvd",
+      "campusId": "cmp-dig",
+      "buildingId": "bld-dig-1",
+      "roomId": "rm-dig-101",
+      "reportedBy": "K. Subba Rao (Principal)",
+      "reportedByEmail": "principal.arvd@amararaja.com",
+      "reportedDate": "2026-07-22",
+      "targetResolutionDate": "2026-07-23",
+      "assignedTechnician": "Suresh AC Services",
+      "technicianPhone": "+91 94401 55667",
+      "comments": [
+        {
+          "id": "c4",
+          "authorName": "K. Subba Rao",
+          "authorRole": "Principal",
+          "text": "AC turned off to prevent carpet damage.",
+          "timestamp": "2026-07-22 04:30 PM"
+        }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "id": "vnd-001",
+      "name": "Godrej Interio Commercial",
+      "code": "VND-FUR-001",
+      "contactPerson": "Arun Varma (Enterprise Sales)",
+      "email": "arun.varma@godrej.com",
+      "phone": "+91 98490 22341",
+      "alternatePhone": "+91 80 2558 9000",
+      "address": "Plot No. 44, Industrial Estate, Guindy",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pincode": "600032",
+      "gstNumber": "33AAACG1234F1Z8",
+      "panNumber": "AAACG1234F",
+      "category": "Furniture & Fixtures, Civil & Plumbing",
+      "categories": [
+        "Furniture & Fixtures",
+        "Civil & Plumbing"
+      ],
+      "status": "Active",
+      "rating": 5,
+      "paymentTerms": "Net 30 Days",
+      "bankDetails": {
+        "bankName": "HDFC Bank",
+        "accountNumber": "50200012345678",
+        "ifscCode": "HDFC0000128",
+        "branch": "Guindy Industrial Branch"
+      },
+      "notes": "Primary supplier for ergonomic executive chairs, modular workstations, and institutional desks.",
+      "createdDate": "2023-01-10"
+    },
+    {
+      "id": "vnd-002",
+      "name": "Featherlite Furniture Solutions",
+      "code": "VND-FUR-002",
+      "contactPerson": "S. Rajeshwar",
+      "email": "rajeshwar@featherlitefurniture.com",
+      "phone": "+91 94401 88992",
+      "address": "Survey No. 16/1, Commercial Corridor, Whitefield",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560066",
+      "gstNumber": "29AABCF4567M1ZV",
+      "panNumber": "AABCF4567M",
+      "category": "Furniture & Fixtures, General Supplies",
+      "categories": [
+        "Furniture & Fixtures",
+        "General Supplies"
+      ],
+      "status": "Active",
+      "rating": 4,
+      "paymentTerms": "Net 15 Days",
+      "bankDetails": {
+        "bankName": "State Bank of India",
+        "accountNumber": "38901234567",
+        "ifscCode": "SBIN0004123",
+        "branch": "Whitefield Branch"
+      },
+      "notes": "Supplier of classroom student dual desks, conference boardroom tables, and cafeteria sets.",
+      "createdDate": "2023-03-15"
+    },
+    {
+      "id": "vnd-003",
+      "name": "Dell Technologies India Pvt Ltd",
+      "code": "VND-IT-001",
+      "contactPerson": "Nitin Kulkarni",
+      "email": "nitin.kulkarni@dell.com",
+      "phone": "+91 80 6688 2000",
+      "address": "Divyasree Greens, Challaghatta",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560071",
+      "gstNumber": "29AACCD9876P1ZA",
+      "panNumber": "AACCD9876P",
+      "category": "IT Equipment, Networking & Telecom, AMC & Maintenance",
+      "categories": [
+        "IT Equipment",
+        "Networking & Telecom",
+        "AMC & Maintenance"
+      ],
+      "status": "Active",
+      "rating": 5,
+      "paymentTerms": "Net 30 Days",
+      "bankDetails": {
+        "bankName": "Citibank N.A.",
+        "accountNumber": "0023456789",
+        "ifscCode": "CITI0000002",
+        "branch": "MG Road"
+      },
+      "notes": "Enterprise server racks, PowerEdge hardware, Precision workstations, and commercial laptops.",
+      "createdDate": "2023-01-20"
+    },
+    {
+      "id": "vnd-004",
+      "name": "Amara Raja Infotech Services",
+      "code": "VND-IT-002",
+      "contactPerson": "V. Naresh Kumar",
+      "email": "naresh.k@amararaja.com",
+      "phone": "+91 877 2265000",
+      "address": "Amara Raja Tower, Renigunta Road",
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "pincode": "517520",
+      "gstNumber": "37AAAAA9999K1Z1",
+      "panNumber": "AAAAA9999K",
+      "category": "IT Equipment, CCTV & Security, Networking & Telecom",
+      "categories": [
+        "IT Equipment",
+        "CCTV & Security",
+        "Networking & Telecom"
+      ],
+      "status": "Active",
+      "rating": 5,
+      "paymentTerms": "Immediate / Internal",
+      "notes": "Internal IT equipment distribution, network switch provisioning, and biometric systems integration.",
+      "createdDate": "2023-01-01"
+    },
+    {
+      "id": "vnd-005",
+      "name": "Voltas Airconditioning & Commercial Cooling",
+      "code": "VND-AC-001",
+      "contactPerson": "P. Venkatraman",
+      "email": "venkat.voltas@tatavoltas.com",
+      "phone": "+91 98480 12345",
+      "address": "Voltas House, Dr. Ambedkar Road, Chinchpokli",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400033",
+      "gstNumber": "27AAACV2468Q1Z9",
+      "panNumber": "AAACV2468Q",
+      "category": "Air Conditioning & HVAC, AMC & Maintenance, Electrical & Power",
+      "categories": [
+        "Air Conditioning & HVAC",
+        "AMC & Maintenance",
+        "Electrical & Power"
+      ],
+      "status": "Active",
+      "rating": 4,
+      "paymentTerms": "Quarterly AMC Advance",
+      "notes": "Authorized HVAC equipment vendor and preventive maintenance contract partner for all campuses.",
+      "createdDate": "2023-02-18"
+    },
+    {
+      "id": "vnd-006",
+      "name": "Philips Lighting & Electrical Systems",
+      "code": "VND-ELE-001",
+      "contactPerson": "K. Balasubramanian",
+      "email": "bala.philips@signify.com",
+      "phone": "+91 97910 44556",
+      "address": "Signify Innovations, OMR IT Highway",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pincode": "600096",
+      "gstNumber": "33AABCS8899R1ZY",
+      "panNumber": "AABCS8899R",
+      "category": "Electrical & Power, Solar & Power Storage",
+      "categories": [
+        "Electrical & Power",
+        "Solar & Power Storage"
+      ],
+      "status": "Active",
+      "rating": 5,
+      "paymentTerms": "Net 30 Days",
+      "notes": "LED industrial fixtures, high-bay factory lights, smart campus lighting controls.",
+      "createdDate": "2023-04-10"
+    }
+  ]
+}

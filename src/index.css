@@ -1,0 +1,1413 @@
+@import "tailwindcss";
+
+/* ----------------------------------------------------
+   AMARA RAJA EAMS - 4 DISTINCT ENTERPRISE THEMES
+   ---------------------------------------------------- */
+
+/* ====================================================
+   THEME 1: AMARA EXECUTIVE GOLD (Classic Dark Executive)
+   ==================================================== */
+[data-theme="amara-gold"], body {
+  --app-bg: #020617;
+  --header-bg: #0f172a;
+  --card-bg: #0f172a;
+  --card-border: #1e293b;
+  --accent: #f59e0b;
+  --accent-hover: #d97706;
+  --text-primary: #f8fafc;
+  --text-muted: #94a3b8;
+}
+
+[data-theme="amara-gold"] header {
+  background-color: #0f172a !important;
+  border-bottom: 1px solid #1e293b !important;
+  color: #f8fafc !important;
+}
+
+
+/* ====================================================
+   THEME 2: MIDNIGHT NAVY & SAPPHIRE CYAN
+   ==================================================== */
+[data-theme="midnight-navy"] {
+  --app-bg: #030712;
+  --header-bg: #09132e;
+  --card-bg: #0a1128;
+  --card-border: #1e3a8a;
+  --accent: #06b6d4;
+  --accent-hover: #0891b2;
+  --text-primary: #f0f9ff;
+  --text-muted: #7dd3fc;
+  background-color: #030712 !important;
+  color: #f0f9ff !important;
+}
+
+[data-theme="midnight-navy"] header {
+  background-color: #09132e !important;
+  border-bottom: 1px solid #1e3a8a !important;
+  color: #f0f9ff !important;
+}
+
+[data-theme="midnight-navy"] header select,
+[data-theme="midnight-navy"] header input {
+  background-color: #0f1e40 !important;
+  border-color: #1e3a8a !important;
+  color: #f0f9ff !important;
+}
+
+[data-theme="midnight-navy"] .bg-slate-950 {
+  background-color: #030712 !important;
+}
+[data-theme="midnight-navy"] .bg-slate-900 {
+  background-color: #0a1128 !important;
+  border-color: #1e293b !important;
+}
+[data-theme="midnight-navy"] .bg-slate-800 {
+  background-color: #0f1e40 !important;
+  border-color: #1e3a8a !important;
+}
+[data-theme="midnight-navy"] .bg-slate-850 {
+  background-color: #0d1b3a !important;
+}
+[data-theme="midnight-navy"] .border-slate-800,
+[data-theme="midnight-navy"] .border-slate-700 {
+  border-color: #1e3a8a !important;
+}
+
+/* Palette Accent Overrides -> Electric Sapphire Cyan */
+[data-theme="midnight-navy"] .text-amber-400,
+[data-theme="midnight-navy"] .text-amber-300 {
+  color: #06b6d4 !important;
+}
+[data-theme="midnight-navy"] .bg-amber-500 {
+  background-color: #06b6d4 !important;
+  color: #030712 !important;
+}
+[data-theme="midnight-navy"] .hover\:bg-amber-400:hover {
+  background-color: #22d3ee !important;
+  color: #030712 !important;
+}
+[data-theme="midnight-navy"] .bg-amber-500\/20,
+[data-theme="midnight-navy"] .bg-amber-500\/10 {
+  background-color: rgba(6, 182, 212, 0.18) !important;
+}
+[data-theme="midnight-navy"] .border-amber-500\/30,
+[data-theme="midnight-navy"] .border-amber-500\/20,
+[data-theme="midnight-navy"] .border-amber-500 {
+  border-color: rgba(6, 182, 212, 0.4) !important;
+}
+
+
+/* ====================================================
+   THEME 3: CYBER EMERALD & OBSIDIAN
+   ==================================================== */
+[data-theme="cyber-emerald"] {
+  --app-bg: #09090b;
+  --header-bg: #121215;
+  --card-bg: #18181b;
+  --card-border: #27272a;
+  --accent: #10b981;
+  --accent-hover: #059669;
+  --text-primary: #f4f4f5;
+  --text-muted: #a1a1aa;
+  background-color: #09090b !important;
+  color: #f4f4f5 !important;
+}
+
+[data-theme="cyber-emerald"] header {
+  background-color: #121215 !important;
+  border-bottom: 1px solid #064e3b !important;
+  color: #f4f4f5 !important;
+}
+
+[data-theme="cyber-emerald"] header select,
+[data-theme="cyber-emerald"] header input {
+  background-color: #27272a !important;
+  border-color: #3f3f46 !important;
+  color: #f4f4f5 !important;
+}
+
+[data-theme="cyber-emerald"] .bg-slate-950 {
+  background-color: #09090b !important;
+}
+[data-theme="cyber-emerald"] .bg-slate-900 {
+  background-color: #18181b !important;
+  border-color: #27272a !important;
+}
+[data-theme="cyber-emerald"] .bg-slate-800 {
+  background-color: #27272a !important;
+  border-color: #3f3f46 !important;
+}
+[data-theme="cyber-emerald"] .bg-slate-850 {
+  background-color: #1f1f23 !important;
+}
+[data-theme="cyber-emerald"] .border-slate-800,
+[data-theme="cyber-emerald"] .border-slate-700 {
+  border-color: #27272a !important;
+}
+
+/* Palette Accent Overrides -> Mint Emerald */
+[data-theme="cyber-emerald"] .text-amber-400,
+[data-theme="cyber-emerald"] .text-amber-300 {
+  color: #10b981 !important;
+}
+[data-theme="cyber-emerald"] .bg-amber-500 {
+  background-color: #10b981 !important;
+  color: #09090b !important;
+}
+[data-theme="cyber-emerald"] .hover\:bg-amber-400:hover {
+  background-color: #34d399 !important;
+  color: #09090b !important;
+}
+[data-theme="cyber-emerald"] .bg-amber-500\/20,
+[data-theme="cyber-emerald"] .bg-amber-500\/10 {
+  background-color: rgba(16, 185, 129, 0.18) !important;
+}
+[data-theme="cyber-emerald"] .border-amber-500\/30,
+[data-theme="cyber-emerald"] .border-amber-500\/20,
+[data-theme="cyber-emerald"] .border-amber-500 {
+  border-color: rgba(16, 185, 129, 0.4) !important;
+}
+
+
+/* ====================================================
+   THEME 4: ROYAL AMETHYST & VIOLET
+   ==================================================== */
+[data-theme="royal-amethyst"] {
+  --app-bg: #0f0716;
+  --header-bg: #1a0b26;
+  --card-bg: #1c0e2b;
+  --card-border: #3b1d5c;
+  --accent: #a855f7;
+  --accent-hover: #9333ea;
+  --text-primary: #f3e8ff;
+  --text-muted: #c084fc;
+  background-color: #0f0716 !important;
+  color: #f3e8ff !important;
+}
+
+[data-theme="royal-amethyst"] header {
+  background-color: #1a0b26 !important;
+  border-bottom: 1px solid #3b1d5c !important;
+  color: #f3e8ff !important;
+}
+
+[data-theme="royal-amethyst"] header select,
+[data-theme="royal-amethyst"] header input {
+  background-color: #2a1240 !important;
+  border-color: #3b1d5c !important;
+  color: #f3e8ff !important;
+}
+
+[data-theme="royal-amethyst"] .bg-slate-950 {
+  background-color: #0f0716 !important;
+}
+[data-theme="royal-amethyst"] .bg-slate-900 {
+  background-color: #1c0e2b !important;
+  border-color: #3b1d5c !important;
+}
+[data-theme="royal-amethyst"] .bg-slate-800 {
+  background-color: #2a1240 !important;
+  border-color: #4c2875 !important;
+}
+[data-theme="royal-amethyst"] .bg-slate-850 {
+  background-color: #241038 !important;
+}
+[data-theme="royal-amethyst"] .border-slate-800,
+[data-theme="royal-amethyst"] .border-slate-700 {
+  border-color: #3b1d5c !important;
+}
+
+/* Palette Accent Overrides -> Royal Amethyst */
+[data-theme="royal-amethyst"] .text-amber-400,
+[data-theme="royal-amethyst"] .text-amber-300 {
+  color: #c084fc !important;
+}
+[data-theme="royal-amethyst"] .bg-amber-500 {
+  background-color: #a855f7 !important;
+  color: #ffffff !important;
+}
+[data-theme="royal-amethyst"] .hover\:bg-amber-400:hover {
+  background-color: #c084fc !important;
+  color: #000000 !important;
+}
+[data-theme="royal-amethyst"] .bg-amber-500\/20,
+[data-theme="royal-amethyst"] .bg-amber-500\/10 {
+  background-color: rgba(168, 85, 247, 0.18) !important;
+}
+[data-theme="royal-amethyst"] .border-amber-500\/30,
+[data-theme="royal-amethyst"] .border-amber-500\/20,
+[data-theme="royal-amethyst"] .border-amber-500 {
+  border-color: rgba(168, 85, 247, 0.4) !important;
+}
+
+
+/* ====================================================
+   THEME 5: INDUSTRIAL CRIMSON RUBY
+   ==================================================== */
+[data-theme="crimson-ruby"] {
+  --app-bg: #11090b;
+  --header-bg: #1d0f12;
+  --card-bg: #1f1113;
+  --card-border: #421c21;
+  --accent: #f43f5e;
+  --accent-hover: #e11d48;
+  --text-primary: #ffe4e6;
+  --text-muted: #fda4af;
+  background-color: #11090b !important;
+  color: #ffe4e6 !important;
+}
+
+[data-theme="crimson-ruby"] header {
+  background-color: #1d0f12 !important;
+  border-bottom: 1px solid #421c21 !important;
+  color: #ffe4e6 !important;
+}
+
+[data-theme="crimson-ruby"] header select,
+[data-theme="crimson-ruby"] header input {
+  background-color: #2e151a !important;
+  border-color: #421c21 !important;
+  color: #ffe4e6 !important;
+}
+
+[data-theme="crimson-ruby"] .bg-slate-950 {
+  background-color: #11090b !important;
+}
+[data-theme="crimson-ruby"] .bg-slate-900 {
+  background-color: #1f1113 !important;
+  border-color: #421c21 !important;
+}
+[data-theme="crimson-ruby"] .bg-slate-800 {
+  background-color: #2e151a !important;
+  border-color: #58242c !important;
+}
+[data-theme="crimson-ruby"] .bg-slate-850 {
+  background-color: #261216 !important;
+}
+[data-theme="crimson-ruby"] .border-slate-800,
+[data-theme="crimson-ruby"] .border-slate-700 {
+  border-color: #421c21 !important;
+}
+
+/* Palette Accent Overrides -> Crimson Ruby */
+[data-theme="crimson-ruby"] .text-amber-400,
+[data-theme="crimson-ruby"] .text-amber-300 {
+  color: #fb7185 !important;
+}
+[data-theme="crimson-ruby"] .bg-amber-500 {
+  background-color: #f43f5e !important;
+  color: #ffffff !important;
+}
+[data-theme="crimson-ruby"] .hover\:bg-amber-400:hover {
+  background-color: #fb7185 !important;
+  color: #000000 !important;
+}
+[data-theme="crimson-ruby"] .bg-amber-500\/20,
+[data-theme="crimson-ruby"] .bg-amber-500\/10 {
+  background-color: rgba(244, 63, 94, 0.18) !important;
+}
+[data-theme="crimson-ruby"] .border-amber-500\/30,
+[data-theme="crimson-ruby"] .border-amber-500\/20,
+[data-theme="crimson-ruby"] .border-amber-500 {
+  border-color: rgba(244, 63, 94, 0.4) !important;
+}
+
+
+/* ====================================================
+   THEME 6: SUNSET BRONZE & ORANGE
+   ==================================================== */
+[data-theme="sunset-amber"] {
+  --app-bg: #0c0a09;
+  --header-bg: #171412;
+  --card-bg: #1c1917;
+  --card-border: #3b281b;
+  --accent: #f97316;
+  --accent-hover: #ea580c;
+  --text-primary: #fff7ed;
+  --text-muted: #fdba74;
+  background-color: #0c0a09 !important;
+  color: #fff7ed !important;
+}
+
+[data-theme="sunset-amber"] header {
+  background-color: #171412 !important;
+  border-bottom: 1px solid #3b281b !important;
+  color: #fff7ed !important;
+}
+
+[data-theme="sunset-amber"] header select,
+[data-theme="sunset-amber"] header input {
+  background-color: #29221d !important;
+  border-color: #3b281b !important;
+  color: #fff7ed !important;
+}
+
+[data-theme="sunset-amber"] .bg-slate-950 {
+  background-color: #0c0a09 !important;
+}
+[data-theme="sunset-amber"] .bg-slate-900 {
+  background-color: #1c1917 !important;
+  border-color: #3b281b !important;
+}
+[data-theme="sunset-amber"] .bg-slate-800 {
+  background-color: #29221d !important;
+  border-color: #523825 !important;
+}
+[data-theme="sunset-amber"] .bg-slate-850 {
+  background-color: #221c18 !important;
+}
+[data-theme="sunset-amber"] .border-slate-800,
+[data-theme="sunset-amber"] .border-slate-700 {
+  border-color: #3b281b !important;
+}
+
+/* Palette Accent Overrides -> Sunset Orange */
+[data-theme="sunset-amber"] .text-amber-400,
+[data-theme="sunset-amber"] .text-amber-300 {
+  color: #fb923c !important;
+}
+[data-theme="sunset-amber"] .bg-amber-500 {
+  background-color: #f97316 !important;
+  color: #000000 !important;
+}
+[data-theme="sunset-amber"] .hover\:bg-amber-400:hover {
+  background-color: #fb923c !important;
+  color: #000000 !important;
+}
+[data-theme="sunset-amber"] .bg-amber-500\/20,
+[data-theme="sunset-amber"] .bg-amber-500\/10 {
+  background-color: rgba(249, 115, 22, 0.18) !important;
+}
+[data-theme="sunset-amber"] .border-amber-500\/30,
+[data-theme="sunset-amber"] .border-amber-500\/20,
+[data-theme="sunset-amber"] .border-amber-500 {
+  border-color: rgba(249, 115, 22, 0.4) !important;
+}
+
+
+/* ====================================================
+   THEME 7: STEEL SLATE & SILVER
+   ==================================================== */
+[data-theme="steel-slate"] {
+  --app-bg: #0f172a;
+  --header-bg: #1e293b;
+  --card-bg: #1e293b;
+  --card-border: #334155;
+  --accent: #38bdf8;
+  --accent-hover: #0284c7;
+  --text-primary: #f8fafc;
+  --text-muted: #94a3b8;
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="steel-slate"] header {
+  background-color: #1e293b !important;
+  border-bottom: 1px solid #334155 !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="steel-slate"] header select,
+[data-theme="steel-slate"] header input {
+  background-color: #334155 !important;
+  border-color: #475569 !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="steel-slate"] .bg-slate-950 {
+  background-color: #0f172a !important;
+}
+[data-theme="steel-slate"] .bg-slate-900 {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+[data-theme="steel-slate"] .bg-slate-800 {
+  background-color: #334155 !important;
+  border-color: #475569 !important;
+}
+[data-theme="steel-slate"] .bg-slate-850 {
+  background-color: #273549 !important;
+}
+[data-theme="steel-slate"] .border-slate-800,
+[data-theme="steel-slate"] .border-slate-700 {
+  border-color: #334155 !important;
+}
+
+/* Palette Accent Overrides -> Steel Sky Blue */
+[data-theme="steel-slate"] .text-amber-400,
+[data-theme="steel-slate"] .text-amber-300 {
+  color: #38bdf8 !important;
+}
+[data-theme="steel-slate"] .bg-amber-500 {
+  background-color: #38bdf8 !important;
+  color: #0f172a !important;
+}
+[data-theme="steel-slate"] .hover\:bg-amber-400:hover {
+  background-color: #7dd3fc !important;
+  color: #0f172a !important;
+}
+[data-theme="steel-slate"] .bg-amber-500\/20,
+[data-theme="steel-slate"] .bg-amber-500\/10 {
+  background-color: rgba(56, 189, 248, 0.18) !important;
+}
+[data-theme="steel-slate"] .border-amber-500\/30,
+[data-theme="steel-slate"] .border-amber-500\/20,
+[data-theme="steel-slate"] .border-amber-500 {
+  border-color: rgba(56, 189, 248, 0.4) !important;
+}
+
+
+/* ====================================================
+   THEME 8: CORPORATE CRISP LIGHT MODE
+   ==================================================== */
+[data-theme="crisp-light"] {
+  --app-bg: #f1f5f9;
+  --header-bg: #ffffff;
+  --card-bg: #ffffff;
+  --card-border: #cbd5e1;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --text-primary: #0f172a;
+  --text-muted: #475569;
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+/* Header theme in Crisp Light Mode */
+[data-theme="crisp-light"] header {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-bottom: 1px solid #cbd5e1 !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important;
+}
+
+[data-theme="crisp-light"] header span.text-slate-100 {
+  color: #0f172a !important;
+}
+
+[data-theme="crisp-light"] header p.text-slate-400 {
+  color: #64748b !important;
+}
+
+[data-theme="crisp-light"] header select,
+[data-theme="crisp-light"] header input {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+
+/* Containers & Cards in Crisp Light */
+[data-theme="crisp-light"] .bg-slate-950 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+[data-theme="crisp-light"] .bg-slate-900 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="crisp-light"] .bg-slate-850,
+[data-theme="crisp-light"] .bg-slate-800 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="crisp-light"] .border-slate-800,
+[data-theme="crisp-light"] .border-slate-700,
+[data-theme="crisp-light"] .border-slate-700\/80,
+[data-theme="crisp-light"] .border-slate-700\/70,
+[data-theme="crisp-light"] .border-slate-700\/60 {
+  border-color: #e2e8f0 !important;
+}
+
+/* Base Typography in Crisp Light */
+[data-theme="crisp-light"] .text-slate-100,
+[data-theme="crisp-light"] .text-slate-200 {
+  color: #0f172a !important;
+}
+
+[data-theme="crisp-light"] .text-slate-300,
+[data-theme="crisp-light"] .text-slate-400 {
+  color: #475569 !important;
+}
+
+/* ON HOVER TEXT COLOR MUST BE BLACK IN CORPORATE CRISP LIGHT MODE */
+[data-theme="crisp-light"] a:hover,
+[data-theme="crisp-light"] button:hover,
+[data-theme="crisp-light"] tr:hover,
+[data-theme="crisp-light"] tr:hover td,
+[data-theme="crisp-light"] .hover\:text-white:hover,
+[data-theme="crisp-light"] .hover\:text-slate-100:hover,
+[data-theme="crisp-light"] .hover\:text-slate-200:hover,
+[data-theme="crisp-light"] .hover\:text-slate-300:hover,
+[data-theme="crisp-light"] .hover\:text-slate-400:hover,
+[data-theme="crisp-light"] .group:hover .group-hover\:text-white,
+[data-theme="crisp-light"] .group:hover .group-hover\:text-slate-100,
+[data-theme="crisp-light"] .group:hover .group-hover\:text-slate-200,
+[data-theme="crisp-light"] .group:hover .group-hover\:text-slate-300 {
+  color: #000000 !important;
+  font-weight: 700;
+}
+
+[data-theme="crisp-light"] .hover\:bg-slate-800:hover,
+[data-theme="crisp-light"] .hover\:bg-slate-700:hover,
+[data-theme="crisp-light"] .hover\:bg-slate-800\/40:hover,
+[data-theme="crisp-light"] .hover\:bg-slate-800\/80:hover,
+[data-theme="crisp-light"] .hover\:bg-slate-700\/70:hover {
+  background-color: #e2e8f0 !important;
+  color: #000000 !important;
+}
+
+/* Form Controls & Dropdown Selects in Crisp Light */
+[data-theme="crisp-light"] input,
+[data-theme="crisp-light"] select,
+[data-theme="crisp-light"] textarea,
+[data-theme="crisp-light"] option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+[data-theme="crisp-light"] input::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Palette Accent Overrides -> Corporate Sapphire Royal Blue */
+[data-theme="crisp-light"] .text-amber-400,
+[data-theme="crisp-light"] .text-amber-300 {
+  color: #2563eb !important;
+}
+[data-theme="crisp-light"] .bg-amber-500 {
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+}
+[data-theme="crisp-light"] .hover\:bg-amber-400:hover {
+  background-color: #1d4ed8 !important;
+  color: #ffffff !important;
+}
+[data-theme="crisp-light"] .bg-amber-500\/20,
+[data-theme="crisp-light"] .bg-amber-500\/10 {
+  background-color: rgba(37, 99, 235, 0.12) !important;
+}
+[data-theme="crisp-light"] .border-amber-500\/30,
+[data-theme="crisp-light"] .border-amber-500\/20,
+[data-theme="crisp-light"] .border-amber-500 {
+  border-color: rgba(37, 99, 235, 0.3) !important;
+}
+
+
+/* ====================================================
+   OFFICIAL THEME 1: CORPORATE SLATE & CRISP WHITE (LIGHT)
+   Boardroom & Enterprise Executive Standard
+   ==================================================== */
+[data-theme="corporate-slate"] {
+  --app-bg: #f8fafc;
+  --header-bg: #0f172a;
+  --card-bg: #ffffff;
+  --card-border: #cbd5e1;
+  --accent: #0f172a;
+  --accent-hover: #1e293b;
+  --text-primary: #0f172a;
+  --text-muted: #475569;
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+[data-theme="corporate-slate"] header {
+  background-color: #0f172a !important;
+  border-bottom: 2px solid #334155 !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="corporate-slate"] header select,
+[data-theme="corporate-slate"] header input {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="corporate-slate"] .bg-slate-950 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+[data-theme="corporate-slate"] .bg-slate-900 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+}
+
+[data-theme="corporate-slate"] .bg-slate-850,
+[data-theme="corporate-slate"] .bg-slate-800 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="corporate-slate"] .border-slate-800,
+[data-theme="corporate-slate"] .border-slate-700,
+[data-theme="corporate-slate"] .border-slate-700\/80,
+[data-theme="corporate-slate"] .border-slate-700\/70,
+[data-theme="corporate-slate"] .border-slate-700\/60 {
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="corporate-slate"] .text-slate-100,
+[data-theme="corporate-slate"] .text-slate-200 {
+  color: #0f172a !important;
+}
+
+[data-theme="corporate-slate"] .text-slate-300,
+[data-theme="corporate-slate"] .text-slate-400 {
+  color: #475569 !important;
+}
+
+[data-theme="corporate-slate"] a:hover,
+[data-theme="corporate-slate"] button:hover,
+[data-theme="corporate-slate"] tr:hover,
+[data-theme="corporate-slate"] tr:hover td,
+[data-theme="corporate-slate"] .hover\:text-white:hover,
+[data-theme="corporate-slate"] .hover\:text-slate-100:hover,
+[data-theme="corporate-slate"] .hover\:text-slate-200:hover,
+[data-theme="corporate-slate"] .hover\:text-slate-300:hover,
+[data-theme="corporate-slate"] .hover\:text-slate-400:hover {
+  color: #000000 !important;
+  font-weight: 700;
+}
+
+[data-theme="corporate-slate"] .hover\:bg-slate-800:hover,
+[data-theme="corporate-slate"] .hover\:bg-slate-700:hover,
+[data-theme="corporate-slate"] .hover\:bg-slate-800\/40:hover,
+[data-theme="corporate-slate"] .hover\:bg-slate-800\/80:hover {
+  background-color: #e2e8f0 !important;
+  color: #000000 !important;
+}
+
+[data-theme="corporate-slate"] input,
+[data-theme="corporate-slate"] select,
+[data-theme="corporate-slate"] textarea,
+[data-theme="corporate-slate"] option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+[data-theme="corporate-slate"] .text-amber-400,
+[data-theme="corporate-slate"] .text-amber-300 {
+  color: #0f172a !important;
+  font-weight: 700;
+}
+[data-theme="corporate-slate"] .bg-amber-500 {
+  background-color: #0f172a !important;
+  color: #ffffff !important;
+}
+[data-theme="corporate-slate"] .hover\:bg-amber-400:hover {
+  background-color: #1e293b !important;
+  color: #ffffff !important;
+}
+[data-theme="corporate-slate"] .bg-amber-500\/20,
+[data-theme="corporate-slate"] .bg-amber-500\/10 {
+  background-color: rgba(15, 23, 42, 0.08) !important;
+}
+[data-theme="corporate-slate"] .border-amber-500\/30,
+[data-theme="corporate-slate"] .border-amber-500\/20,
+[data-theme="corporate-slate"] .border-amber-500 {
+  border-color: rgba(15, 23, 42, 0.3) !important;
+}
+
+
+/* ====================================================
+   OFFICIAL THEME 2: CLASSIC ENTERPRISE BLUE (SAP / ORACLE)
+   Global ERP & IT Asset Standard
+   ==================================================== */
+[data-theme="classic-enterprise"] {
+  --app-bg: #f1f5f9;
+  --header-bg: #1e3a8a;
+  --card-bg: #ffffff;
+  --card-border: #cbd5e1;
+  --accent: #1d4ed8;
+  --accent-hover: #1e40af;
+  --text-primary: #0f172a;
+  --text-muted: #475569;
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+[data-theme="classic-enterprise"] header {
+  background-color: #1e3a8a !important;
+  border-bottom: 2px solid #1d4ed8 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(30, 58, 138, 0.25) !important;
+}
+
+[data-theme="classic-enterprise"] header span.text-slate-100 {
+  color: #ffffff !important;
+}
+
+[data-theme="classic-enterprise"] header p.text-slate-400 {
+  color: #bfdbfe !important;
+}
+
+[data-theme="classic-enterprise"] header select,
+[data-theme="classic-enterprise"] header input {
+  background-color: #172554 !important;
+  border-color: #2563eb !important;
+  color: #ffffff !important;
+}
+
+[data-theme="classic-enterprise"] .bg-slate-950 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+[data-theme="classic-enterprise"] .bg-slate-900 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 1px 3px rgba(30, 58, 138, 0.06);
+}
+
+[data-theme="classic-enterprise"] .bg-slate-850,
+[data-theme="classic-enterprise"] .bg-slate-800 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="classic-enterprise"] .border-slate-800,
+[data-theme="classic-enterprise"] .border-slate-700,
+[data-theme="classic-enterprise"] .border-slate-700\/80,
+[data-theme="classic-enterprise"] .border-slate-700\/70,
+[data-theme="classic-enterprise"] .border-slate-700\/60 {
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="classic-enterprise"] .text-slate-100,
+[data-theme="classic-enterprise"] .text-slate-200 {
+  color: #0f172a !important;
+}
+
+[data-theme="classic-enterprise"] .text-slate-300,
+[data-theme="classic-enterprise"] .text-slate-400 {
+  color: #475569 !important;
+}
+
+[data-theme="classic-enterprise"] a:hover,
+[data-theme="classic-enterprise"] button:hover,
+[data-theme="classic-enterprise"] tr:hover,
+[data-theme="classic-enterprise"] tr:hover td {
+  color: #000000 !important;
+}
+
+[data-theme="classic-enterprise"] .hover\:bg-slate-800:hover,
+[data-theme="classic-enterprise"] .hover\:bg-slate-700:hover,
+[data-theme="classic-enterprise"] .hover\:bg-slate-800\/40:hover {
+  background-color: #e0e7ff !important;
+  color: #1e3a8a !important;
+}
+
+[data-theme="classic-enterprise"] input,
+[data-theme="classic-enterprise"] select,
+[data-theme="classic-enterprise"] textarea,
+[data-theme="classic-enterprise"] option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+[data-theme="classic-enterprise"] .text-amber-400,
+[data-theme="classic-enterprise"] .text-amber-300 {
+  color: #1d4ed8 !important;
+  font-weight: 700;
+}
+[data-theme="classic-enterprise"] .bg-amber-500 {
+  background-color: #1d4ed8 !important;
+  color: #ffffff !important;
+}
+[data-theme="classic-enterprise"] .hover\:bg-amber-400:hover {
+  background-color: #1e40af !important;
+  color: #ffffff !important;
+}
+[data-theme="classic-enterprise"] .bg-amber-500\/20,
+[data-theme="classic-enterprise"] .bg-amber-500\/10 {
+  background-color: rgba(29, 78, 216, 0.12) !important;
+}
+[data-theme="classic-enterprise"] .border-amber-500\/30,
+[data-theme="classic-enterprise"] .border-amber-500\/20,
+[data-theme="classic-enterprise"] .border-amber-500 {
+  border-color: rgba(29, 78, 216, 0.35) !important;
+}
+
+
+/* ====================================================
+   OFFICIAL THEME 3: INSTITUTIONAL BANKING & AUDIT (ESG)
+   Financial Institutions, Audit Ledgers & Statutory Compliance
+   ==================================================== */
+[data-theme="institutional-emerald"] {
+  --app-bg: #f4f6f5;
+  --header-bg: #064e3b;
+  --card-bg: #ffffff;
+  --card-border: #cbd5e1;
+  --accent: #059669;
+  --accent-hover: #047857;
+  --text-primary: #0f172a;
+  --text-muted: #475569;
+  background-color: #f4f6f5 !important;
+  color: #0f172a !important;
+}
+
+[data-theme="institutional-emerald"] header {
+  background-color: #064e3b !important;
+  border-bottom: 2px solid #059669 !important;
+  color: #ffffff !important;
+}
+
+[data-theme="institutional-emerald"] header span.text-slate-100 {
+  color: #ffffff !important;
+}
+
+[data-theme="institutional-emerald"] header p.text-slate-400 {
+  color: #a7f3d0 !important;
+}
+
+[data-theme="institutional-emerald"] header select,
+[data-theme="institutional-emerald"] header input {
+  background-color: #022c22 !important;
+  border-color: #059669 !important;
+  color: #ffffff !important;
+}
+
+[data-theme="institutional-emerald"] .bg-slate-950 {
+  background-color: #f4f6f5 !important;
+  color: #0f172a !important;
+}
+
+[data-theme="institutional-emerald"] .bg-slate-900 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 1px 3px rgba(6, 78, 59, 0.05);
+}
+
+[data-theme="institutional-emerald"] .bg-slate-850,
+[data-theme="institutional-emerald"] .bg-slate-800 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="institutional-emerald"] .border-slate-800,
+[data-theme="institutional-emerald"] .border-slate-700,
+[data-theme="institutional-emerald"] .border-slate-700\/80,
+[data-theme="institutional-emerald"] .border-slate-700\/70,
+[data-theme="institutional-emerald"] .border-slate-700\/60 {
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="institutional-emerald"] .text-slate-100,
+[data-theme="institutional-emerald"] .text-slate-200 {
+  color: #0f172a !important;
+}
+
+[data-theme="institutional-emerald"] .text-slate-300,
+[data-theme="institutional-emerald"] .text-slate-400 {
+  color: #475569 !important;
+}
+
+[data-theme="institutional-emerald"] a:hover,
+[data-theme="institutional-emerald"] button:hover,
+[data-theme="institutional-emerald"] tr:hover,
+[data-theme="institutional-emerald"] tr:hover td {
+  color: #000000 !important;
+}
+
+[data-theme="institutional-emerald"] .hover\:bg-slate-800:hover,
+[data-theme="institutional-emerald"] .hover\:bg-slate-700:hover {
+  background-color: #ecfdf5 !important;
+  color: #064e3b !important;
+}
+
+[data-theme="institutional-emerald"] input,
+[data-theme="institutional-emerald"] select,
+[data-theme="institutional-emerald"] textarea,
+[data-theme="institutional-emerald"] option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+[data-theme="institutional-emerald"] .text-amber-400,
+[data-theme="institutional-emerald"] .text-amber-300 {
+  color: #059669 !important;
+  font-weight: 700;
+}
+[data-theme="institutional-emerald"] .bg-amber-500 {
+  background-color: #059669 !important;
+  color: #ffffff !important;
+}
+[data-theme="institutional-emerald"] .hover\:bg-amber-400:hover {
+  background-color: #047857 !important;
+  color: #ffffff !important;
+}
+[data-theme="institutional-emerald"] .bg-amber-500\/20,
+[data-theme="institutional-emerald"] .bg-amber-500\/10 {
+  background-color: rgba(5, 150, 105, 0.12) !important;
+}
+[data-theme="institutional-emerald"] .border-amber-500\/30,
+[data-theme="institutional-emerald"] .border-amber-500\/20,
+[data-theme="institutional-emerald"] .border-amber-500 {
+  border-color: rgba(5, 150, 105, 0.35) !important;
+}
+
+
+/* ====================================================
+   OFFICIAL THEME 4: FEDERAL GOVTECH MONOCHROME
+   Government Department & Swiss Neutral Public Ledger
+   ==================================================== */
+[data-theme="federal-monochrome"] {
+  --app-bg: #fafafa;
+  --header-bg: #18181b;
+  --card-bg: #ffffff;
+  --card-border: #d4d4d8;
+  --accent: #18181b;
+  --accent-hover: #27272a;
+  --text-primary: #09090b;
+  --text-muted: #52525b;
+  background-color: #fafafa !important;
+  color: #09090b !important;
+}
+
+[data-theme="federal-monochrome"] header {
+  background-color: #18181b !important;
+  border-bottom: 2px solid #27272a !important;
+  color: #fafafa !important;
+}
+
+[data-theme="federal-monochrome"] header select,
+[data-theme="federal-monochrome"] header input {
+  background-color: #27272a !important;
+  border-color: #3f3f46 !important;
+  color: #fafafa !important;
+}
+
+[data-theme="federal-monochrome"] .bg-slate-950 {
+  background-color: #fafafa !important;
+  color: #09090b !important;
+}
+
+[data-theme="federal-monochrome"] .bg-slate-900 {
+  background-color: #ffffff !important;
+  color: #09090b !important;
+  border-color: #d4d4d8 !important;
+}
+
+[data-theme="federal-monochrome"] .bg-slate-850,
+[data-theme="federal-monochrome"] .bg-slate-800 {
+  background-color: #f4f4f5 !important;
+  color: #09090b !important;
+  border-color: #e4e4e7 !important;
+}
+
+[data-theme="federal-monochrome"] .border-slate-800,
+[data-theme="federal-monochrome"] .border-slate-700,
+[data-theme="federal-monochrome"] .border-slate-700\/80,
+[data-theme="federal-monochrome"] .border-slate-700\/70,
+[data-theme="federal-monochrome"] .border-slate-700\/60 {
+  border-color: #e4e4e7 !important;
+}
+
+[data-theme="federal-monochrome"] .text-slate-100,
+[data-theme="federal-monochrome"] .text-slate-200 {
+  color: #09090b !important;
+}
+
+[data-theme="federal-monochrome"] .text-slate-300,
+[data-theme="federal-monochrome"] .text-slate-400 {
+  color: #52525b !important;
+}
+
+[data-theme="federal-monochrome"] a:hover,
+[data-theme="federal-monochrome"] button:hover,
+[data-theme="federal-monochrome"] tr:hover,
+[data-theme="federal-monochrome"] tr:hover td {
+  color: #000000 !important;
+  font-weight: 700;
+}
+
+[data-theme="federal-monochrome"] .hover\:bg-slate-800:hover,
+[data-theme="federal-monochrome"] .hover\:bg-slate-700:hover {
+  background-color: #e4e4e7 !important;
+  color: #000000 !important;
+}
+
+[data-theme="federal-monochrome"] input,
+[data-theme="federal-monochrome"] select,
+[data-theme="federal-monochrome"] textarea,
+[data-theme="federal-monochrome"] option {
+  background-color: #ffffff !important;
+  color: #09090b !important;
+  border-color: #d4d4d8 !important;
+}
+
+[data-theme="federal-monochrome"] .text-amber-400,
+[data-theme="federal-monochrome"] .text-amber-300 {
+  color: #18181b !important;
+  font-weight: 700;
+}
+[data-theme="federal-monochrome"] .bg-amber-500 {
+  background-color: #18181b !important;
+  color: #ffffff !important;
+}
+[data-theme="federal-monochrome"] .hover\:bg-amber-400:hover {
+  background-color: #27272a !important;
+  color: #ffffff !important;
+}
+[data-theme="federal-monochrome"] .bg-amber-500\/20,
+[data-theme="federal-monochrome"] .bg-amber-500\/10 {
+  background-color: rgba(24, 24, 27, 0.1) !important;
+}
+[data-theme="federal-monochrome"] .border-amber-500\/30,
+[data-theme="federal-monochrome"] .border-amber-500\/20,
+[data-theme="federal-monochrome"] .border-amber-500 {
+  border-color: rgba(24, 24, 27, 0.3) !important;
+}
+
+
+/* ====================================================
+   OFFICIAL THEME 5: EXECUTIVE MIDNIGHT NAVY & PLATINUM (DARK)
+   High-Level Boardroom & Institutional Executive Dark Mode
+   ==================================================== */
+[data-theme="executive-navy"] {
+  --app-bg: #0b1120;
+  --header-bg: #0e172e;
+  --card-bg: #0f172a;
+  --card-border: #1e293b;
+  --accent: #38bdf8;
+  --accent-hover: #0ea5e9;
+  --text-primary: #f8fafc;
+  --text-muted: #94a3b8;
+  background-color: #0b1120 !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="executive-navy"] header {
+  background-color: #0e172e !important;
+  border-bottom: 1px solid #1e293b !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="executive-navy"] header select,
+[data-theme="executive-navy"] header input {
+  background-color: #13203f !important;
+  border-color: #1e293b !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="executive-navy"] .bg-slate-950 {
+  background-color: #0b1120 !important;
+}
+[data-theme="executive-navy"] .bg-slate-900 {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+}
+[data-theme="executive-navy"] .bg-slate-850 {
+  background-color: #13203f !important;
+}
+[data-theme="executive-navy"] .bg-slate-800 {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+[data-theme="executive-navy"] .border-slate-800,
+[data-theme="executive-navy"] .border-slate-700 {
+  border-color: #1e293b !important;
+}
+
+[data-theme="executive-navy"] .text-amber-400,
+[data-theme="executive-navy"] .text-amber-300 {
+  color: #38bdf8 !important;
+}
+[data-theme="executive-navy"] .bg-amber-500 {
+  background-color: #38bdf8 !important;
+  color: #0b1120 !important;
+}
+[data-theme="executive-navy"] .hover\:bg-amber-400:hover {
+  background-color: #7dd3fc !important;
+  color: #0b1120 !important;
+}
+[data-theme="executive-navy"] .bg-amber-500\/20,
+[data-theme="executive-navy"] .bg-amber-500\/10 {
+  background-color: rgba(56, 189, 248, 0.18) !important;
+}
+[data-theme="executive-navy"] .border-amber-500\/30,
+[data-theme="executive-navy"] .border-amber-500\/20,
+[data-theme="executive-navy"] .border-amber-500 {
+  border-color: rgba(56, 189, 248, 0.4) !important;
+}
+
+
+/* ====================================================
+   OFFICIAL THEME 6: OFFICIAL OPS CENTER & NOC (DARK)
+   Mission-Critical Operations Room & Facility Control Console
+   ==================================================== */
+[data-theme="high-contrast-dark"] {
+  --app-bg: #020408;
+  --header-bg: #050811;
+  --card-bg: #090d16;
+  --card-border: #1e293b;
+  --accent: #60a5fa;
+  --accent-hover: #3b82f6;
+  --text-primary: #ffffff;
+  --text-muted: #94a3b8;
+  background-color: #020408 !important;
+  color: #ffffff !important;
+}
+
+[data-theme="high-contrast-dark"] header {
+  background-color: #050811 !important;
+  border-bottom: 1px solid #1e293b !important;
+  color: #ffffff !important;
+}
+
+[data-theme="high-contrast-dark"] header select,
+[data-theme="high-contrast-dark"] header input {
+  background-color: #0d1424 !important;
+  border-color: #2563eb !important;
+  color: #ffffff !important;
+}
+
+[data-theme="high-contrast-dark"] .bg-slate-950 {
+  background-color: #020408 !important;
+}
+[data-theme="high-contrast-dark"] .bg-slate-900 {
+  background-color: #090d16 !important;
+  border-color: #1e293b !important;
+}
+[data-theme="high-contrast-dark"] .bg-slate-850 {
+  background-color: #0d1424 !important;
+}
+[data-theme="high-contrast-dark"] .bg-slate-800 {
+  background-color: #111a30 !important;
+  border-color: #1e293b !important;
+}
+[data-theme="high-contrast-dark"] .border-slate-800,
+[data-theme="high-contrast-dark"] .border-slate-700 {
+  border-color: #1e293b !important;
+}
+
+[data-theme="high-contrast-dark"] .text-amber-400,
+[data-theme="high-contrast-dark"] .text-amber-300 {
+  color: #60a5fa !important;
+}
+[data-theme="high-contrast-dark"] .bg-amber-500 {
+  background-color: #3b82f6 !important;
+  color: #ffffff !important;
+}
+[data-theme="high-contrast-dark"] .hover\:bg-amber-400:hover {
+  background-color: #60a5fa !important;
+  color: #000000 !important;
+}
+[data-theme="high-contrast-dark"] .bg-amber-500\/20,
+[data-theme="high-contrast-dark"] .bg-amber-500\/10 {
+  background-color: rgba(96, 165, 250, 0.18) !important;
+}
+[data-theme="high-contrast-dark"] .border-amber-500\/30,
+[data-theme="high-contrast-dark"] .border-amber-500\/20,
+[data-theme="high-contrast-dark"] .border-amber-500 {
+  border-color: rgba(96, 165, 250, 0.4) !important;
+}
+
+
+/* ====================================================
+   OFFICIAL THEME 7: CLINICAL & HEALTHCARE TEAL (LIGHT)
+   Hospital, Medical Campus & Laboratory Asset Standard
+   ==================================================== */
+[data-theme="healthcare-teal"] {
+  --app-bg: #f0fdfa;
+  --header-bg: #0f766e;
+  --card-bg: #ffffff;
+  --card-border: #99f6e4;
+  --accent: #0d9488;
+  --accent-hover: #0f766e;
+  --text-primary: #0f172a;
+  --text-muted: #475569;
+  background-color: #f0fdfa !important;
+  color: #0f172a !important;
+}
+
+[data-theme="healthcare-teal"] header {
+  background-color: #0f766e !important;
+  border-bottom: 2px solid #0d9488 !important;
+  color: #ffffff !important;
+}
+
+[data-theme="healthcare-teal"] header span.text-slate-100 {
+  color: #ffffff !important;
+}
+
+[data-theme="healthcare-teal"] header p.text-slate-400 {
+  color: #ccfbf1 !important;
+}
+
+[data-theme="healthcare-teal"] header select,
+[data-theme="healthcare-teal"] header input {
+  background-color: #042f2e !important;
+  border-color: #14b8a6 !important;
+  color: #ffffff !important;
+}
+
+[data-theme="healthcare-teal"] .bg-slate-950 {
+  background-color: #f0fdfa !important;
+  color: #0f172a !important;
+}
+
+[data-theme="healthcare-teal"] .bg-slate-900 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #ccfbf1 !important;
+  box-shadow: 0 1px 3px rgba(15, 118, 110, 0.06);
+}
+
+[data-theme="healthcare-teal"] .bg-slate-850,
+[data-theme="healthcare-teal"] .bg-slate-800 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="healthcare-teal"] .border-slate-800,
+[data-theme="healthcare-teal"] .border-slate-700 {
+  border-color: #e2e8f0 !important;
+}
+
+[data-theme="healthcare-teal"] .text-slate-100,
+[data-theme="healthcare-teal"] .text-slate-200 {
+  color: #0f172a !important;
+}
+
+[data-theme="healthcare-teal"] .text-slate-300,
+[data-theme="healthcare-teal"] .text-slate-400 {
+  color: #475569 !important;
+}
+
+[data-theme="healthcare-teal"] a:hover,
+[data-theme="healthcare-teal"] button:hover,
+[data-theme="healthcare-teal"] tr:hover,
+[data-theme="healthcare-teal"] tr:hover td {
+  color: #000000 !important;
+}
+
+[data-theme="healthcare-teal"] .hover\:bg-slate-800:hover,
+[data-theme="healthcare-teal"] .hover\:bg-slate-700:hover {
+  background-color: #ccfbf1 !important;
+  color: #0f766e !important;
+}
+
+[data-theme="healthcare-teal"] input,
+[data-theme="healthcare-teal"] select,
+[data-theme="healthcare-teal"] textarea,
+[data-theme="healthcare-teal"] option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+[data-theme="healthcare-teal"] .text-amber-400,
+[data-theme="healthcare-teal"] .text-amber-300 {
+  color: #0d9488 !important;
+  font-weight: 700;
+}
+[data-theme="healthcare-teal"] .bg-amber-500 {
+  background-color: #0d9488 !important;
+  color: #ffffff !important;
+}
+[data-theme="healthcare-teal"] .hover\:bg-amber-400:hover {
+  background-color: #0f766e !important;
+  color: #ffffff !important;
+}
+[data-theme="healthcare-teal"] .bg-amber-500\/20,
+[data-theme="healthcare-teal"] .bg-amber-500\/10 {
+  background-color: rgba(13, 148, 136, 0.12) !important;
+}
+[data-theme="healthcare-teal"] .border-amber-500\/30,
+[data-theme="healthcare-teal"] .border-amber-500\/20,
+[data-theme="healthcare-teal"] .border-amber-500 {
+  border-color: rgba(13, 148, 136, 0.35) !important;
+}
+
+
+/* ====================================================
+   OFFICIAL THEME 8: NORDIC STEEL & ICE SLATE (DARK)
+   Engineering & Industrial Plant Infrastructure
+   ==================================================== */
+[data-theme="nordic-frost"] {
+  --app-bg: #0c131f;
+  --header-bg: #0e1726;
+  --card-bg: #151f32;
+  --card-border: #1e293b;
+  --accent: #0284c7;
+  --accent-hover: #0369a1;
+  --text-primary: #f0f9ff;
+  --text-muted: #94a3b8;
+  background-color: #0c131f !important;
+  color: #f0f9ff !important;
+}
+
+[data-theme="nordic-frost"] header {
+  background-color: #0e1726 !important;
+  border-bottom: 1px solid #1e293b !important;
+  color: #f0f9ff !important;
+}
+
+[data-theme="nordic-frost"] header select,
+[data-theme="nordic-frost"] header input {
+  background-color: #1b2840 !important;
+  border-color: #0284c7 !important;
+  color: #f0f9ff !important;
+}
+
+[data-theme="nordic-frost"] .bg-slate-950 {
+  background-color: #0c131f !important;
+}
+[data-theme="nordic-frost"] .bg-slate-900 {
+  background-color: #151f32 !important;
+  border-color: #1e293b !important;
+}
+[data-theme="nordic-frost"] .bg-slate-850 {
+  background-color: #1b2840 !important;
+}
+[data-theme="nordic-frost"] .bg-slate-800 {
+  background-color: #21314f !important;
+  border-color: #334155 !important;
+}
+[data-theme="nordic-frost"] .border-slate-800,
+[data-theme="nordic-frost"] .border-slate-700 {
+  border-color: #1e293b !important;
+}
+
+[data-theme="nordic-frost"] .text-amber-400,
+[data-theme="nordic-frost"] .text-amber-300 {
+  color: #38bdf8 !important;
+}
+[data-theme="nordic-frost"] .bg-amber-500 {
+  background-color: #0284c7 !important;
+  color: #ffffff !important;
+}
+[data-theme="nordic-frost"] .hover\:bg-amber-400:hover {
+  background-color: #0369a1 !important;
+  color: #ffffff !important;
+}
+[data-theme="nordic-frost"] .bg-amber-500\/20,
+[data-theme="nordic-frost"] .bg-amber-500\/10 {
+  background-color: rgba(2, 132, 199, 0.18) !important;
+}
+[data-theme="nordic-frost"] .border-amber-500\/30,
+[data-theme="nordic-frost"] .border-amber-500\/20,
+[data-theme="nordic-frost"] .border-amber-500 {
+  border-color: rgba(2, 132, 199, 0.4) !important;
+}
+
